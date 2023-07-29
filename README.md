@@ -12,16 +12,18 @@ This is a simple calculator web application built using HTML, JavaScript, and CS
 
 ## Getting Started
 
-To use the calculator locally on your machine, follow these steps:
+Local Access:
+Clone the repository: git clone https://github.com/ArshGujral/Calculator.git.
+Open index.html in your browser.
 
-1. Clone the repository to your local machine using `git clone https://github.com/ArshGujral/Calculator.git`.
-2. Open the `index.html` file in your web browser.
+Online Access:
+Visit arshgujral.github.io/Calculator/
 
 ## Screenshots
 
-(https://i.postimg.cc/qq08sJKZ/Screenshot1.jpg)
+(https://i.postimg.cc/RVGS068W/1st-Screenshot.png)
 
-(https://i.postimg.cc/xTB1hsx9/Screenshot2.jpg)
+(https://i.postimg.cc/s2s44Lm6/2nd-Screenshot.png)
 
 ## Technologies Used
 
@@ -32,6 +34,21 @@ To use the calculator locally on your machine, follow these steps:
 ## Contribution
 
 Contributions to improve the calculator or fix any issues are welcome! If you find a bug or want to suggest an enhancement, please create an issue or submit a pull request.
+
+
+
+
+Enjoy hassle-free calculations!
+
+
+
+
+
+
+
+
+
+
 
 ## License
 
