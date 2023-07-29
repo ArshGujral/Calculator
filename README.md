@@ -17,7 +17,7 @@ Clone the repository: git clone https://github.com/ArshGujral/Calculator.git.
 Open index.html in your browser.
 
 Online Access:
-Visit arshgujral.github.io/Calculator/
+Visit https://arshgujral.github.io/Calculator/
 
 ## Screenshots
 
