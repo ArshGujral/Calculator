@@ -1,50 +1,38 @@
-<!-- Calculator using HTML, CSS and JavaScript-->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
- 
+<html lang="en" >
 <head>
-  <meta charset="utf-8">
-  <title>Calculator using HTML, CSS and JavaScript</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-</head>
- 
-<body>
- 
-<table class="calculator" >
-  <tr>
-    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
-    <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="1" onclick="display('1')"class="enlarge-hover" /> </td>
-    <td> <input type="button" value="2" onclick="display('2')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="3" onclick="display('3')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="/" onclick="display('/')" class="enlarge-hover"/> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="4" onclick="display('4')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="5" onclick="display('5')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="6" onclick="display('6')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="-" onclick="display('-')" class="enlarge-hover"/> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="7" onclick="display('7')"class="enlarge-hover" /> </td>
-    <td> <input type="button" value="8" onclick="display('8')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="9" onclick="display('9')"class="enlarge-hover" /> </td>
-    <td> <input type="button" value="+" onclick="display('+')" class="enlarge-hover"/> </td>
-  </tr>
-  <tr>
-    <td> <input type="button" value="." onclick="display('.')" class="enlarge-hover"/> </td>
-    <td> <input type="button" value="0" onclick="display('0')" class="enlarge-hover"/> </td>
- 
-    <td> <input type="button" value="=" onclick="calculate()" id="btn" /> </td>
-    <td> <input type="button" value="*" onclick="display('*')" /> </td>
-  </tr>
-</table>
- 
-<script type="text/javascript" src="script.js"></script>
- 
-</body>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Courier+Prime&amp;display=swap'><link rel="stylesheet" href="./style.css">
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <form action="" name="calc" class="calculator">
+    <input type="text" class="value" readonly name="txt" />
+    <span class="num clear" onclick="calc.txt.value=''"><i>C</i></span>
+    <span class="num" onclick="calc.txt.value+='/'"><i>/</i></span>
+    <span class="num" onclick="calc.txt.value+='*'"><i>*</i></span>
+    <span class="num" onclick="calc.txt.value+='7'"><i>7</i></span>
+    <span class="num" onclick="calc.txt.value+='8'"><i>8</i></span>
+    <span class="num" onclick="calc.txt.value+='9'"><i>9</i></span>
+    <span class="num" onclick="calc.txt.value+='-'"><i>-</i></span>
+    <span class="num" onclick="calc.txt.value+='4'"><i>4</i></span>
+    <span class="num" onclick="calc.txt.value+='5'"><i>5</i></span>
+    <span class="num" onclick="calc.txt.value+='6'"><i>6</i></span>
+    <span class="num plus" onclick="calc.txt.value+='+'"><i>+</i></span>
+    <span class="num" onclick="calc.txt.value+='1'"><i>1</i></span>
+    <span class="num" onclick="calc.txt.value+='2'"><i>2</i></span>
+    <span class="num" onclick="calc.txt.value+='3'"><i>3</i></span>
+    <span class="num" onclick="calc.txt.value+='0'"><i>0</i></span>
+    <span class="num" onclick="calc.txt.value+='00'"><i>00</i></span>
+    <span class="num" onclick="calc.txt.value+='.'"><i>.</i></span>
+
+    <span class="num equal" onclick="document.calc.txt.value=eval(calc.txt.value)"><i>=</i></span>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
 </html>
